@@ -1,9 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Fruit Brust</title>
+
+        <!-- Lato Font -->
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+            .lato{
+                font-family: 'Lato', sans-serif;
+            }
+        </style>
         
         <!-- Favicon -->
         <link rel="shortcut icon" href="images/fruit9.png" type="image/x-icon">
@@ -12,6 +20,9 @@
         <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
         <script src="https://cdn.tailwindcss.com"></script>
 
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/fbcff7765f.js" crossorigin="anonymous"></script>
+
         <!-- Tailwind.css Customization -->
         <script>
             tailwind.config = {
@@ -19,18 +30,85 @@
                 extend: {
                 colors: {
                     clifford: '#da373d',
+                    'primary-bg-color': '#F85559',
+                    'primary-color': '#121212',
+                    'secondary-color': '#121212',
                 }
                 }
             }
             }
         </script>
     </head>
-    <body>
+    <body class="lato">
 
 
-        <h1 class="text-5xl text-center">HELLO WORLD!</h1>
+        <header class="">
+
+            <nav class="bg-white md:bg-primary-bg-color rounded-full mt-2">
+                <div class="navbar">
+                    <!-- LAPTOP DESKTOP MENU -->
+                    <div class="navbar-start hidden lg:flex">
+                      <ul class="menu menu-horizontal px-1 text-lg font-medium text-white">
+                        <li><a>Home</a></li>
+                        <li><a>About Us</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>All Fruits</a></li>
+                      </ul>
+                    </div>
+                    <div class="navbar-center w-full lg:w-auto justify-between">
+                        <!-- LOGO -->
+                        <a class="flex items-center text-2xl md:text-4xl font-bold text-black md:text-white">
+                            <img class="pr-2" src="images/logo.png" alt="">
+                            Fruit Brust
+                        </a>
+                        <!-- MOBILE MENU -->
+                        <div class="dropdown relative">
+                          <label tabindex="0" class="btn btn-ghost lg:hidden text-black">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                          </label>
+                          <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 absolute top-10 right-5">
+                            <li><a>Home</a></li>
+                            <li><a>About Us</a></li>
+                            <li><a>Shop</a></li>
+                            <li><a>All Fruits</a></li>
+                          </ul>
+                        </div>
+                    </div>
+                    <div class="navbar-end hidden lg:inline-flex">
+                        <form class="relative" action="">
+                            <input type="search" placeholder="Search here" class="input w-80 rounded-3xl px-5 pr-10" /> 
+                            <button type="submit" class="h-full absolute top-0 right-3 rounded-l-none">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
 
 
+        <main class="container m-auto">
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quibusdam, impedit neque doloribus aliquam veritatis repellendus voluptatum sunt, quos quaerat totam? Reprehenderit ducimus porro fuga quia ad consequuntur. Praesentium, exercitationem!</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, sapiente tempore ipsam rem eaque velit molestias fuga porro deserunt explicabo assumenda, dolores exercitationem pariatur illum molestiae corporis maxime itaque consequatur.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, sapiente tempore ipsam rem eaque velit molestias fuga porro deserunt explicabo assumenda, dolores exercitationem pariatur illum molestiae corporis maxime itaque consequatur.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, sapiente tempore ipsam rem eaque velit molestias fuga porro deserunt explicabo assumenda, dolores exercitationem pariatur illum molestiae corporis maxime itaque consequatur.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, sapiente tempore ipsam rem eaque velit molestias fuga porro deserunt explicabo assumenda, dolores exercitationem pariatur illum molestiae corporis maxime itaque consequatur.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, sapiente tempore ipsam rem eaque velit molestias fuga porro deserunt explicabo assumenda, dolores exercitationem pariatur illum molestiae corporis maxime itaque consequatur.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, sapiente tempore ipsam rem eaque velit molestias fuga porro deserunt explicabo assumenda, dolores exercitationem pariatur illum molestiae corporis maxime itaque consequatur.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, sapiente tempore ipsam rem eaque velit molestias fuga porro deserunt explicabo assumenda, dolores exercitationem pariatur illum molestiae corporis maxime itaque consequatur.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, sapiente tempore ipsam rem eaque velit molestias fuga porro deserunt explicabo assumenda, dolores exercitationem pariatur illum molestiae corporis maxime itaque consequatur.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, sapiente tempore ipsam rem eaque velit molestias fuga porro deserunt explicabo assumenda, dolores exercitationem pariatur illum molestiae corporis maxime itaque consequatur.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, sapiente tempore ipsam rem eaque velit molestias fuga porro deserunt explicabo assumenda, dolores exercitationem pariatur illum molestiae corporis maxime itaque consequatur.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, sapiente tempore ipsam rem eaque velit molestias fuga porro deserunt explicabo assumenda, dolores exercitationem pariatur illum molestiae corporis maxime itaque consequatur.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, sapiente tempore ipsam rem eaque velit molestias fuga porro deserunt explicabo assumenda, dolores exercitationem pariatur illum molestiae corporis maxime itaque consequatur.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, sapiente tempore ipsam rem eaque velit molestias fuga porro deserunt explicabo assumenda, dolores exercitationem pariatur illum molestiae corporis maxime itaque consequatur.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, sapiente tempore ipsam rem eaque velit molestias fuga porro deserunt explicabo assumenda, dolores exercitationem pariatur illum molestiae corporis maxime itaque consequatur.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, sapiente tempore ipsam rem eaque velit molestias fuga porro deserunt explicabo assumenda, dolores exercitationem pariatur illum molestiae corporis maxime itaque consequatur.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, sapiente tempore ipsam rem eaque velit molestias fuga porro deserunt explicabo assumenda, dolores exercitationem pariatur illum molestiae corporis maxime itaque consequatur.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, sapiente tempore ipsam rem eaque velit molestias fuga porro deserunt explicabo assumenda, dolores exercitationem pariatur illum molestiae corporis maxime itaque consequatur.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, sapiente tempore ipsam rem eaque velit molestias fuga porro deserunt explicabo assumenda, dolores exercitationem pariatur illum molestiae corporis maxime itaque consequatur.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, sapiente tempore ipsam rem eaque velit molestias fuga porro deserunt explicabo assumenda, dolores exercitationem pariatur illum molestiae corporis maxime itaque consequatur.</p>
+        </main>
 
 
 
