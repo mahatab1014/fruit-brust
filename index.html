@@ -40,8 +40,8 @@
         </script>
     </head>
     <body class="poppins">
-        <header class="px-3">
-            <nav class="bg-white md:bg-primary-bg-color rounded-full my-5 shadow-2xl">
+        <header class="px-3 sticky top-2 z-50">
+            <nav class="bg-inherit backdrop-blur-md lg:backdrop-blur-0 lg:bg-primary-bg-color rounded-full my-5 shadow-2xl">
                 <div class="navbar">
                     <!-- LAPTOP DESKTOP MENU -->
                     <div class="navbar-start hidden lg:flex">
@@ -54,13 +54,13 @@
                     </div>
                     <div class="navbar-center w-full lg:w-auto justify-between">
                         <!-- LOGO -->
-                        <a class="flex items-center cursor-pointer text-xl md:text-4xl font-bold text-black md:text-white">
+                        <a class="flex items-center cursor-pointer text-xl md:text-4xl font-bold text-black lg:text-white">
                             <img class="pr-2 w-12" src="images/logo.png" alt="" />
                             <span>Fruit Brust</span>
                         </a>
                         <!-- MOBILE MENU -->
                         <div class="dropdown relative">
-                            <label tabindex="0" class="btn btn-ghost lg:hidden text-black">
+                            <label tabindex="0" class="lg:hidden cursor-pointer text-black">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
                                 </svg>
@@ -97,7 +97,7 @@
                                 <div class="hero-overlay bg-inherit bg-gradient-to-b from-[#000000d5]"></div>
                                 <div class="hero-content text-center text-neutral-content">
                                     <div class="">
-                                        <h1 class="mb-5 text-3xl md:text-7xl font-bold">
+                                        <h1 class="mb-5 text-3xl md:text-4xl lg:text-7xl font-bold">
                                             Exotic tastes at your <br />
                                             doorstep
                                         </h1>
@@ -466,18 +466,18 @@
             </section>
 
             <!-- OUR TEAM -->
-            <section class="py-10 md:py-20">
+            <section class="py-10 px-5 md:py-20">
 
                 <div class="container m-auto">
 
                     <div class="hero min-h-screen rounded-2xl" style="background-image: url('./images/team.png');">
                         <div class="hero-overlay bg-[#000000d5] opacity-80 rounded-2xl"></div>
-                        <div class="hero-content text-center text-neutral-content">
+                        <div class="hero-content text-center text-neutral-content py-16">
                             <div class="">
                                 <h2 class="mb-5 text-3xl md:text-5xl font-bold">Let's Meet With Our Team</h2>
                                 <p class="mb-5">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
                                 <!-- Team Members -->
-                                <div class="team-members grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 md:gap-10">
+                                <div class="team-members grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 md:gap-10">
 
                                     <div class="space-y-5">
                                         <img class="w-1/5 lg:w-2/4 m-auto cursor-pointer" src="images/member1.png" alt="">
