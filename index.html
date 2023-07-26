@@ -64,6 +64,9 @@
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
                                 </svg>
+                                <!-- If we need to exacit same as the figma design then we will use this icon -->
+                                <!-- FONT AWESOME ICON -->
+                                <!-- <span><i class="fa-solid fa-bars"></i></span> -->
                             </label>
                             <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 absolute top-10 right-5">
                                 <li><a>Home</a></li>
@@ -88,7 +91,7 @@
         <!-- MAIN SECTION -->
         <main class="">
             <!-- Banner -->
-            <section class="px-3">
+            <section class="px-2">
                 <div class="m-auto w-full">
                     <!-- HERO CAROUSEL -->
                     <div class="carousel w-full h-[60vh] md:h-[100vh] rounded-lg">
@@ -106,7 +109,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <div class="absolute flex justify-between transform -translate-y-1/2 left-2 right-2 top-[40%] md:left-5 md:right-5 md:top-1/2">
                                 <a href="#slide4" class="btn btn-circle">❮</a>
                                 <a href="#slide2" class="btn btn-circle">❯</a>
                             </div>
@@ -126,8 +129,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                                <a href="#slide1" class="btn btn-circle">❮</a>
+                            <div class="absolute flex justify-between transform -translate-y-1/2 left-2 right-2 top-[40%] md:left-5 md:right-5 md:top-1/2">
+                              <a href="#slide1" class="btn btn-circle">❮</a>
                                 <a href="#slide3" class="btn btn-circle">❯</a>
                             </div>
                         </div>
@@ -146,8 +149,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                                <a href="#slide2" class="btn btn-circle">❮</a>
+                            <div class="absolute flex justify-between transform -translate-y-1/2 left-2 right-2 top-[40%] md:left-5 md:right-5 md:top-1/2">
+                              <a href="#slide2" class="btn btn-circle">❮</a>
                                 <a href="#slide4" class="btn btn-circle">❯</a>
                             </div>
                         </div>
@@ -166,8 +169,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                                <a href="#slide3" class="btn btn-circle">❮</a>
+                            <div class="absolute flex justify-between transform -translate-y-1/2 left-2 right-2 top-[40%] md:left-5 md:right-5 md:top-1/2">
+                              <a href="#slide3" class="btn btn-circle">❮</a>
                                 <a href="#slide1" class="btn btn-circle">❯</a>
                             </div>
                         </div>
@@ -207,7 +210,7 @@
             </section>
 
             <!-- DEAL OF THE DAY -->
-            <section class="px-5 py-8 lg:py-3">
+            <section class="px-2 py-8 lg:py-3">
 
               <div class="container m-auto">
 
@@ -261,7 +264,7 @@
                       <h3 class="text-primary-color">Apples</h3>
 
                       <div>
-                        <div class="rating rating-md rating-half">
+                        <form class="rating rating-md rating-half" action="#">
                           <input type="radio" name="rating-10" class="rating-hidden" />
                           <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
                           <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
@@ -273,7 +276,7 @@
                           <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
                           <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
                           <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
-                        </div>
+                        </form>
                       </div>
 
                       <div class="card-actions">
@@ -312,19 +315,19 @@
                       <h3 class="text-primary-color">Orange</h3>
 
                       <div>
-                        <div class="rating rating-md rating-half">
+                        <form class="rating rating-md rating-half" action="#">
                           <input type="radio" name="rating-10" class="rating-hidden" />
+                          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
                           <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
                           <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
                           <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" checked />
                           <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
                           <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
                           <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
-                          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
-                          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
-                          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
-                          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
-                        </div>
+                        </form>
                       </div>
 
                       <div class="card-actions">
@@ -363,19 +366,19 @@
                       <h3 class="text-primary-color">Red Dragon</h3>
 
                       <div>
-                        <div class="rating rating-md rating-half">
+                        <form class="rating rating-md rating-half" action="#">
                           <input type="radio" name="rating-10" class="rating-hidden" />
                           <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
                           <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
-                          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" checked />
-                          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
                           <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
                           <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
                           <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
                           <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
                           <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
                           <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
-                        </div>
+                          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" checked />
+                        </form>
                       </div>
 
                       <div class="card-actions">
@@ -414,7 +417,7 @@
                       <h3 class="text-primary-color">Banana</h3>
 
                       <div>
-                        <div class="rating rating-md rating-half">
+                        <form class="rating rating-md rating-half" action="#">
                           <input type="radio" name="rating-10" class="rating-hidden" />
                           <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
                           <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
@@ -423,10 +426,10 @@
                           <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
                           <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
                           <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
-                          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" checked />
                           <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
                           <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
-                        </div>
+                        </form>
                       </div>
 
                       <div class="card-actions">
@@ -466,7 +469,7 @@
             </section>
 
             <!-- OUR TEAM -->
-            <section class="py-10 px-5 md:py-20">
+            <section class="py-10 px-2 md:py-20">
 
                 <div class="container m-auto">
 
@@ -481,7 +484,7 @@
 
                                     <div class="space-y-5">
                                         <img class="w-1/5 lg:w-2/4 m-auto cursor-pointer" src="images/member1.png" alt="">
-                                        <h4 class="text-2xl font-semibold cursor-pointer">Awlad Hossain</h4>
+                                        <h4 class="text-xl font-semibold cursor-pointer">Awlad Hossain</h4>
                                         <span>Fruits Expert</span>
                                         <div class="social-icon space-x-2 text-lg">
                                             <a class="hover:text-primary-bg-color transition-all" href="#"><i class="fa-brands fa-facebook"></i></a>
@@ -492,7 +495,7 @@
 
                                     <div class="space-y-5">
                                         <img class="w-1/5 lg:w-2/4 m-auto cursor-pointer" src="images/member2.png" alt="">
-                                        <h4 class="text-2xl font-semibold cursor-pointer">Safia Chowdhury</h4>
+                                        <h4 class="text-xl font-semibold cursor-pointer">Safia Chowdhury</h4>
                                         <span>Fruits Expert</span>
                                         <div class="social-icon space-x-2 text-lg">
                                             <a class="hover:text-primary-bg-color transition-all" href="#"><i class="fa-brands fa-facebook"></i></a>
@@ -503,7 +506,7 @@
 
                                     <div class="space-y-5">
                                         <img class="w-1/5 lg:w-2/4 m-auto cursor-pointer" src="images/member3.png" alt="">
-                                        <h4 class="text-2xl font-semibold cursor-pointer">Rokib Hossain</h4>
+                                        <h4 class="text-xl font-semibold cursor-pointer">Rokib Hossain</h4>
                                         <span>Fruits Expert</span>
                                         <div class="social-icon space-x-2 text-lg">
                                             <a class="hover:text-primary-bg-color transition-all" href="#"><i class="fa-brands fa-facebook"></i></a>
@@ -514,7 +517,7 @@
 
                                     <div class="space-y-5">
                                         <img class="w-1/5 lg:w-2/4 m-auto cursor-pointer" src="images/member4.png" alt="">
-                                        <h4 class="text-2xl font-semibold cursor-pointer">Chaity</h4>
+                                        <h4 class="text-xl font-semibold cursor-pointer">Chaity</h4>
                                         <span>Fruits Expert</span>
                                         <div class="social-icon space-x-2 text-lg">
                                             <a class="hover:text-primary-bg-color transition-all" href="#"><i class="fa-brands fa-facebook"></i></a>
@@ -543,6 +546,37 @@
 
 
 
+
+        <footer class="bg-primary-color py-8 lg:py-20">
+          <div class="footer-container space-y-5 lg:space-y-10">
+            <div class="logo">
+              <a class="flex items-center justify-center cursor-pointer text-xl md:text-4xl font-bold text-white">
+                <img class="pr-2 w-12" src="images/logo.png" alt="" />
+                <span>Fruit Brust</span>
+              </a>
+            </div>
+            <div class="footer-menu">
+              <ul class="flex justify-center gap-5 flex-wrap text-sm lg:text-base">
+                <li><a class="text-white hover:text-primary-bg-color transition-all" href="#">Home</a></li>
+                <li><a class="text-white hover:text-primary-bg-color transition-all" href="#">About Us</a></li>
+                <li><a class="text-white hover:text-primary-bg-color transition-all" href="#">Shop</a></li>
+                <li><a class="text-white hover:text-primary-bg-color transition-all" href="#">ALL Fruits</a></li>
+                <li><a class="text-white hover:text-primary-bg-color transition-all" href="#">Support</a></li>
+                <li><a class="text-white hover:text-primary-bg-color transition-all" href="#">My Account</a></li>
+              </ul>
+            </div>
+            <div class="footer-social-icon">
+              <ul class="flex justify-center space-x-5 text-2xl flex-wrap">
+                <li><a class="text-white hover:text-primary-bg-color transition-all" href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a class="text-white hover:text-primary-bg-color transition-all" href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a class="text-white hover:text-primary-bg-color transition-all" href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                <li><a class="text-white hover:text-primary-bg-color transition-all" href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a class="text-white hover:text-primary-bg-color transition-all" href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a class="text-white hover:text-primary-bg-color transition-all" href="#"><i class="fa-brands fa-apple"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </footer>
 
 
     </body>
